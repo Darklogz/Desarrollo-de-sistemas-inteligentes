@@ -1,0 +1,9 @@
+# Ignorar toda la configuración interna, plugins y temas de Obsidian
+.obsidian/
+
+# En caso de que tengas vaults dentro de subcarpetas
+**/.obsidian/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
