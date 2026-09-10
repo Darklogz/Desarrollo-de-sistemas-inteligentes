@@ -1,0 +1,6 @@
+
+- Suse: SUSE Rancher y Zabbix combinan la gestión de múltiples clústeres, GitOps, monitoreo e inteligencia artificial para automatizar la detección, el diagnóstico y la resolución de fallas en entornos Kubernetes a gran escala.
+- Fedor: El Proyecto Fedora transformó su monitoreo de infraestructura al migrar de Nagios a Zabbix, sustituyendo años de deuda técnica por una solución escalable, automatizada y resiliente.
+- Imagunet: La empresa colombiana se integró a la red de Partners Oficiales de Zabbix en 2018 y rápidamente convirtió la herramienta en un elemento esencial para su portafolio y crecimiento. La alianza fortaleció su reputación y, con la expansión de Zabbix en América Latina, aceleró los ciclos comerciales, permitiendo centrarse en la expansión regional.
+- Affidea: Al adoptar la Suscripción Enterprise de Zabbix, que incluye actualizaciones, consultoría, revisión de entorno y capacitaciones, Affidea logró ahorros de hasta un 50% en comparación con la contratación de estos servicios por separado.
+- Tecmundo: Zabbix proporcionó a Tecmundo, uno de los mayores portales de tecnología de Brasil, una solución de monitoreo integrada y funcional, capaz de satisfacer las necesidades de infraestructura, desarrollo y negocio.
