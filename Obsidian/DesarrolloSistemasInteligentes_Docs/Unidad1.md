@@ -1,4 +1,4 @@
-
+# Leonardo Alejandro Mondragón Morales
 ### Actividad 1.0
 ¿Qué espera aprender de la materia?
 Quisiera aprender a más detalle los varios algoritmos que se utilizan en la creación de inteligencia artificial así como aprender a configurar parámetros dentro de las mismas permitiendo así un manejo y control mejor de los sistemas inteligentes locales o de automatización
