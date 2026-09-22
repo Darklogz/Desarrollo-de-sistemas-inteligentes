@@ -41,5 +41,5 @@ P: % de animales clasificados correctamente
 E: animales ya etiquetados o correctamente etiquetados
 ### Ejemplo 2: software de compra/venta de valores
 T: identificar cuando comprar y cuando vender valores del mercado
-P: % de veces en las que el valor que compró subio de precio antes de que lo vendiera
+P: % de veces en las que el valor que compró subió de precio antes de que lo vendiera
 E: momentos o patrones en los cuales es más conveniente comprar y vender
