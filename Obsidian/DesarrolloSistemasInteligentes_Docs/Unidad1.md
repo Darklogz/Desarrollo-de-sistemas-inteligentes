@@ -43,3 +43,9 @@ E: animales ya etiquetados o correctamente etiquetados
 T: identificar cuando comprar y cuando vender valores del mercado
 P: % de veces en las que el valor que compró subió de precio antes de que lo vendiera
 E: momentos o patrones en los cuales es más conveniente comprar y vender
+
+## Actividad 2.2
+
+**Supervisado**: Aquel que las personas le dicen que hacer, lo que esta bien y lo que no, cuando sí y cuando no. Va aprendiendo de cosas previamente estipuladas
+**No supervisado:** Es en el que va aprendiendo y no le hace falta que le digan que está bien y que está mal, por si solo se da cuenta de lo que es correcto y lo que no
+**Por refuerzo:** con recompensas va por si mismo identificando cual es la mejor manera de conseguir estas recompensas y lograr su objetivo in necesidad de que algo le diga lo que está bien o lo que está mal
