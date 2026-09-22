@@ -33,3 +33,13 @@ https://drive.google.com/file/d/10agUv_QH0TPmgsHI19Wbp0IafFCtvqqS/view?usp=drive
 | **Robin Knote**, **Andreas Janson** et al.                                      | _The What and How of Smart Personal Assistants: Principles and Application Domains for IS Research_                                          | **Basado en reglas** / **Machine Learning** / NLP (Revisión integradora)                           | **Sistemas de Información** / Asistentes Personales Inteligentes (SPAs)      | Realizaron una revisión sistemática integradora sobre Asistentes Personales Inteligentes para consolidar sus principios funcionales y proponer un esquema de clasificación.                                         | [Ver en Alexandria UNISG](https://www.alexandria.unisg.ch/handle/20.500.14171/101332)                 |
 | **Luca Lazzaroni**, **Francesco Bellotti** & **Riccardo Berta**                 | _An offline end-to-end voice assistant architecture for smart vehicles_                                                                      | **Deep Learning** (Transfer Learning, QuartzNet, MarbleNet, Tacotron2, MelGAN, Rasa)               | **Vehículos Inteligentes** / Edge Computing / Asistentes de Voz Embebidos    | Diseñaron e implementaron una arquitectura end-to-end de asistente de voz totalmente _offline_ para vehículos en idioma italiano ejecutada sobre hardware embebido.                                                 | [Ver en ScienceDirect / DOI](https://doi.org/10.1016/j.engappai.2024.108998)                          |
 | **Nathaly Álvarez-Daza**, **Pablo Pico-Valencia** & **Juan A. Holgado-Terriza** | _Detección de Noticias Falsas en Redes Sociales Basada en Aprendizaje Automático y Profundo: Una Breve Revisión Sistemática_                 | **Machine Learning** & **Deep Learning** (SVM, Naïve Bayes, Random Forest, CNN, LSTM, BERT)        | **Redes Sociales** / Detección de Noticias Falsas (_Fake News_)              | Desarrollaron una revisión sistemática de literatura (metodología Kitchenham) analizando la efectividad de diversos algoritmos de Machine Learning y Deep Learning para la clasificación de noticias falsas.        | [Ver en Revista RISTI](http://www.risti.xyz)                                                          |
+
+## Actividad 2.1
+### Ejemplo 1: identificacion de especies
+T: Identificar especies de animales con solo imagenes de ellas
+P: % de animales clasificados correctamente
+E: animales ya etiquetados o correctamente etiquetados
+### Ejemplo 2: software de compra/venta de stocks
+T: identificar cuando comprar y cuando vender stocks del mercado
+P: % de veces en las que el stock que compró subio de precio antes de que lo vendiera
+E: momentos o patrones en los cuales es más conveniente comprar y vender
