@@ -54,30 +54,56 @@ E: momentos o patrones en los cuales es más conveniente comprar y vender
 ### Glosario
 **Todo con base en Machine learning**
 
-- Pandas: Es la librería principal para el procesamiento, manipulación y análisis de datos. Permite cargar estructuras de datos llamadas DataFrames (similares a tablas de Excel) desde archivos CSV, JSON o bases de datos. En ML se utiliza para limpiar datos, manejar valores faltantes y realizar la selección de características (features).
-- Matplotlib: Es la librería fundamental para la visualización de datos. En ML permite crear gráficos de dispersión, diagramas de barras, curvas de aprendizaje y representaciones gráficas de métricas de evaluación (como la matriz de confusión).
-- Scrikit-lean (Investigar que datos de prueba maneja): Es la librería estándar de Machine Learning en Python. Proporciona algoritmos de clasificación, regresión, agrupación (clustering), así como herramientas de preprocesamiento de datos y evaluación de modelos.
-	- `load_iris()`: Clasificación de 3 especies de flores Iris según sus medidas (150 muestras, 4 características).
-        
-    - `load_digits()`: Reconocimiento de dígitos manuscritos del 0 al 9 (1,797 imágenes de 8x8 píxeles).
-        
-    - `load_breast_cancer()`: Clasificación binaria para diagnóstico de cáncer de mama (569 muestras, 30 características).
-        
-- **Para Regresión:**
+- **Pandas:** Es una biblioteca de código abierto para Python que proporciona herramientas poderosas para el análisis y manipulación de datos tabulares y estructurados.
     
-    - `load_diabetes()`: Predicción de la progresión de la enfermedad un año después (442 muestras, 10 características).
-        
-    - `load_linnerud()`: Análisis de variables fisiológicas y de ejercicio.
-        
-- **Generadores sintéticos:**
+- **Matplotlib:** Es una biblioteca completa para crear visualizaciones estáticas, animadas e interactivas en Python.
     
-    - `make_classification()` y `make_regression()`: Permiten crear datos aleatorios controlando el número de muestras, características y nivel de ruido.
+- **Scikit-learn:** Es una biblioteca de aprendizaje automático (_machine learning_) de código abierto para Python que proporciona herramientas integradas para algoritmos de clasificación, regresión y clustering.
+    
+- **Conjuntos de datos de prueba en Scikit-learn (Datasets):**
+    
+    - **Clasificación:**
+        
+        - **`load_iris()`:** Conjunto de datos clásico para la clasificación de 3 especies de plantas Iris en función de sus medidas anatómicas.
+            
+        - **`load_digits()`:** Conjunto de datos para el reconocimiento de dígitos manuscritos del 0 al 9 en imágenes en escala de grises.
+            
+        - **`load_breast_cancer()`:** Conjunto de datos para la clasificación binaria del diagnóstico de cáncer de mama (maligno o benigno).
+            
+    - **Regresión:**
+        
+        - **`load_diabetes()`:** Conjunto de datos utilizado en tareas de regresión para predecir la progresión de la enfermedad.
+            
+        - **`load_linnerud()`:** Conjunto de datos multivariable utilizado para analizar la relación entre métricas físicas/fisiológicas y datos de ejercicio.
+            
+    - **Generadores sintéticos:**
+        
+        - **`make_classification()` y `make_regression()`:** Funciones generadoras de datos sintéticos que permiten crear datos aleatorios controlando la cantidad de muestras, características y nivel de ruido.
+            
+- **Google Colab:** Es un servicio alojado de Jupyter Notebook que no requiere configuración, funciona completamente en el navegador y ofrece acceso gratuito a recursos de computación como GPUs y TPUs.
+    
+- **Árbol de decisión:** Es un método de aprendizaje supervisado no paramétrico utilizado tanto para clasificación como para regresión que toma decisiones dividiendo los datos de acuerdo con reglas lógicas derivadas de sus características.
+    
+- **Matriz de confusión:** Es una tabla utilizada en el aprendizaje automático para evaluar el rendimiento de un modelo de clasificación, mostrando dónde acierta el modelo y dónde se equivoca al comparar los valores reales con las predicciones.
+    
+    - **Falso positivo (Error Tipo I):** Ocurre cuando el valor real es negativo, pero el modelo predice erróneamente un resultado positivo.
+        
+    - **Falso negativo (Error Tipo II):** Ocurre cuando el valor real es positivo, pero el modelo predice erróneamente un resultado negativo.
+        
+- **Sobreajuste (_Overfitting_):** Es un problema en el aprendizaje automático en el cual el modelo memoriza excesivamente el ruido o detalles específicos de los datos de entrenamiento, perdiendo la capacidad de generalizar correctamente sobre datos nuevos no vistos.
 
-- google colab: Es un entorno de desarrollo basado en Jupyter Notebooks que se ejecuta completamente en la nube, proporcionado por Google. No requiere instalación local de librerías (ya incluye Pandas, Matplotlib, Scikit-learn, etc.) y ofrece acceso gratuito a aceleradores de hardware como GPU y TPU.
+### Fuentes consultadas
 
-- Árbol de decisión: Un algoritmo de aprendizaje supervisado utilizado tanto para clasificación como para regresión. Funciona dividiendo los datos en subconjuntos basados en preguntas de tipo "verdadero/falso" sobre las características del conjunto de datos. La estructura resultante se asemeja a un árbol con nodos de decisión, ramas y hojas (que contienen las predicciones finales).
-- Matriz de confusión: Es una tabla utilizada para medir el rendimiento de un modelo de clasificación evaluando las predicciones contra los valores reales. Se organiza en 4 cuadrantes principales para clasificación binaria:
-- Falso positivo: Ocurre cuando el modelo predice erróneamente que una condición está presente cuando en realidad no lo está.
-- Falso negativo: Ocurre cuando el modelo predice erróneamente que una condición no está presente cuando en realidad sí lo está.
-- Sobreaguante: Es un problema que ocurre cuando un modelo memoriza demasiado los datos de entrenamiento (incluyendo el ruido o los detalles irrelevantes), perdiendo la capacidad de generalizar sobre datos nuevos no vistos.
+1. **Rootstack / Project Pythia:** _Introducción y manipulación de datos en Python con Pandas_.
+    
+2. **Matplotlib Org:** _Documentación oficial y visualizaciones con Matplotlib_.
+    
+3. **IBM / Scikit-learn:** _¿Qué es Scikit-Learn? Algoritmos y evaluación de modelos_.
+    
+4. **LabEx:** _Tutoriales de Clasificación con Árboles de Decisión en Scikit-Learn_.
+    
+5. **Google Colab FAQ / Mentores Tech:** _¿Qué es Google Colaboratory y sus funciones en la nube?_
+    
+6. **Juan Barrios (Inteligencia Artificial) / IBM:** _La matriz de confusión, sus métricas y errores tipo I y II_.
 
+## Actividad 2.4
