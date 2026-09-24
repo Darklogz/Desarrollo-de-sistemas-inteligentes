@@ -49,3 +49,35 @@ E: momentos o patrones en los cuales es más conveniente comprar y vender
 **Supervisado**: Aquel que las personas le dicen que hacer, lo que esta bien y lo que no, cuando sí y cuando no. Va aprendiendo de cosas previamente estipuladas
 **No supervisado:** Es en el que va aprendiendo y no le hace falta que le digan que está bien y que está mal, por si solo se da cuenta de lo que es correcto y lo que no
 **Por refuerzo:** con recompensas va por si mismo identificando cual es la mejor manera de conseguir estas recompensas y lograr su objetivo in necesidad de que algo le diga lo que está bien o lo que está mal
+
+## Actividad 2.3
+### Glosario
+**Todo con base en Machine learning**
+
+- Pandas: Es la librería principal para el procesamiento, manipulación y análisis de datos. Permite cargar estructuras de datos llamadas DataFrames (similares a tablas de Excel) desde archivos CSV, JSON o bases de datos. En ML se utiliza para limpiar datos, manejar valores faltantes y realizar la selección de características (features).
+- Matplotlib: Es la librería fundamental para la visualización de datos. En ML permite crear gráficos de dispersión, diagramas de barras, curvas de aprendizaje y representaciones gráficas de métricas de evaluación (como la matriz de confusión).
+- Scrikit-lean (Investigar que datos de prueba maneja): Es la librería estándar de Machine Learning en Python. Proporciona algoritmos de clasificación, regresión, agrupación (clustering), así como herramientas de preprocesamiento de datos y evaluación de modelos.
+	- `load_iris()`: Clasificación de 3 especies de flores Iris según sus medidas (150 muestras, 4 características).
+        
+    - `load_digits()`: Reconocimiento de dígitos manuscritos del 0 al 9 (1,797 imágenes de 8x8 píxeles).
+        
+    - `load_breast_cancer()`: Clasificación binaria para diagnóstico de cáncer de mama (569 muestras, 30 características).
+        
+- **Para Regresión:**
+    
+    - `load_diabetes()`: Predicción de la progresión de la enfermedad un año después (442 muestras, 10 características).
+        
+    - `load_linnerud()`: Análisis de variables fisiológicas y de ejercicio.
+        
+- **Generadores sintéticos:**
+    
+    - `make_classification()` y `make_regression()`: Permiten crear datos aleatorios controlando el número de muestras, características y nivel de ruido.
+
+- google colab: Es un entorno de desarrollo basado en Jupyter Notebooks que se ejecuta completamente en la nube, proporcionado por Google. No requiere instalación local de librerías (ya incluye Pandas, Matplotlib, Scikit-learn, etc.) y ofrece acceso gratuito a aceleradores de hardware como GPU y TPU.
+
+- Árbol de decisión: Un algoritmo de aprendizaje supervisado utilizado tanto para clasificación como para regresión. Funciona dividiendo los datos en subconjuntos basados en preguntas de tipo "verdadero/falso" sobre las características del conjunto de datos. La estructura resultante se asemeja a un árbol con nodos de decisión, ramas y hojas (que contienen las predicciones finales).
+- Matriz de confusión: Es una tabla utilizada para medir el rendimiento de un modelo de clasificación evaluando las predicciones contra los valores reales. Se organiza en 4 cuadrantes principales para clasificación binaria:
+- Falso positivo: Ocurre cuando el modelo predice erróneamente que una condición está presente cuando en realidad no lo está.
+- Falso negativo: Ocurre cuando el modelo predice erróneamente que una condición no está presente cuando en realidad sí lo está.
+- Sobreaguante: Es un problema que ocurre cuando un modelo memoriza demasiado los datos de entrenamiento (incluyendo el ruido o los detalles irrelevantes), perdiendo la capacidad de generalizar sobre datos nuevos no vistos.
+
