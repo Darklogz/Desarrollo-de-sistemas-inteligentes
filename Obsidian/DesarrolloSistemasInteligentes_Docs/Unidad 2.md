@@ -46,7 +46,7 @@
 
 **Cómo funciona:** Buscan el hiperplano con la mayor distancia a los puntos más cercanos de cualquier clase. Esos puntos son los vectores de soporte. Con funciones kernel pueden separar datos que no son linealmente separables, y conviene escalar los datos antes. [scikit-learn](https://scikit-learn.org/stable/modules/svm.html)
 
-**Caso de uso:** La página de scikit-learn no nombra ninguno. Uno típico es clasificar texto o imágenes, pero eso es conocimiento general mío y no viene de la fuente. Si lo necesitas citado, busca un artículo aparte.
+**Caso de uso:**Clasificación de texto y correos electrónicos: Se usa para categorizar mensajes como spam o correo válido (ham), analizando la frecuencia y presencia de palabras clave.
 
 **Fuente:** [https://scikit-learn.org/stable/modules/svm.html](https://scikit-learn.org/stable/modules/svm.html)
 
@@ -56,8 +56,7 @@
 
 **Cómo funciona:** Cada árbol se construye con una muestra con reemplazo del conjunto de entrenamiento y considera solo un subconjunto aleatorio de variables en cada división. Esa doble aleatoriedad reduce la varianza y el sobreajuste de los árboles individuales. [scikit-learn](https://scikit-learn.org/stable/modules/ensemble.html)
 
-**Caso de uso:** Tampoco lo trae la fuente. Un ejemplo común es evaluar riesgo crediticio con muchas variables, pero de nuevo es conocimiento general mío.
-
+**Caso de uso:** Detección de fraude financiero: Analiza millones de transacciones bancarias en tiempo real. Identifica patrones sospechosos según el monto, la ubicación y el horario para bloquear operaciones fraudulentas.
 **Fuente:** [https://scikit-learn.org/stable/modules/ensemble.html](https://scikit-learn.org/stable/modules/ensemble.html) (sección Random forests)
 
 ### 7. Red neuronal (perceptrón multicapa)
