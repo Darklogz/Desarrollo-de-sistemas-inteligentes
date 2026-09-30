@@ -46,7 +46,7 @@
 
 **Cómo funciona:** Buscan el hiperplano con la mayor distancia a los puntos más cercanos de cualquier clase. Esos puntos son los vectores de soporte. Con funciones kernel pueden separar datos que no son linealmente separables, y conviene escalar los datos antes. [scikit-learn](https://scikit-learn.org/stable/modules/svm.html)
 
-**Caso de uso:**Clasificación de texto y correos electrónicos: Se usa para categorizar mensajes como spam o correo válido (ham), analizando la frecuencia y presencia de palabras clave.
+**Caso de uso:** Clasificación de texto y correos electrónicos: Se usa para categorizar mensajes como spam o correo válido (ham), analizando la frecuencia y presencia de palabras clave.
 
 **Fuente:** [https://scikit-learn.org/stable/modules/svm.html](https://scikit-learn.org/stable/modules/svm.html)
 
@@ -68,3 +68,5 @@
 **Caso de uso:** La guía incluye un ejemplo con MNIST (dígitos escritos a mano) que visualiza los pesos aprendidos. También advierte que esa implementación no es para aplicaciones a gran escala ni usa GPU. [scikit-learn](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)
 
 **Fuente:** [https://scikit-learn.org/stable/modules/neural_networks_supervised.html](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)
+
+
