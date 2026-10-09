@@ -9,6 +9,6 @@ Un sistema de búsqueda resuelve un problema encontrando una secuencia de accion
 #### Best-first search
 ![[Pasted image 20261008181114.png]]
 Busca la respuesta más corta por medio de encontrar la mejor forma de llegar
-
+Algoritmo de djikstra
 ![[Pasted image 20261008181306.png]]
 Sigue todo alrededor hasta encontrar la ruta más optima
