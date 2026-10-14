@@ -70,3 +70,16 @@ Fuentes:
 https://es.scribd.com/document/792467890/document
 https://es.scribd.com/document/579359069/03-Busqueda-no-Informada-1
 https://es.scribd.com/document/1062652996/Clase-1
+
+
+### Actividad 3.2
+
+![[Pasted image 20261014155705.png]]
+-Manhattan
+![[Pasted image 20261014155108.png]]
+
+![[Pasted image 20261014155459.png]]
+-Octile
+![[Pasted image 20261014155929.png]]
+- Ciego
+La diferencia entre ambos es que el octile busca hacer sus pruebas un paso más hacia afuera del manhatan mientras que el manhattan es más directo mientras que el ciego solo ve a su alrededor esperando llegar en algun momento
