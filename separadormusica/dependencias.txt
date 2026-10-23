@@ -1,0 +1,19 @@
+# 1. Python 3.10-3.12 required. Create a virtual environment
+python -m venv venv
+# Windows:
+venv\Scripts\activate
+# Linux/Mac:
+source venv/bin/activate
+
+# 2. ffmpeg (needed by Demucs)
+# Windows: winget install ffmpeg   (then reopen the terminal)
+# Mac:     brew install ffmpeg
+# Linux:   sudo apt install ffmpeg
+
+# 3. PyTorch
+# With NVIDIA GPU: get the exact command from https://pytorch.org (choose CUDA)
+# CPU only:
+pip install torch torchaudio
+
+# 4. Everything else
+pip install demucs soundfile numpy pandas tqdm torchcodec
