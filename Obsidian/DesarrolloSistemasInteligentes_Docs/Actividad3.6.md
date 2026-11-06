@@ -1,0 +1,9 @@
+# Muestras de inferencia
+## Leonardo Alejandro Mondragón Morales
+
+
+|                 | Mamdani                                                                                                                                                               | Takagi-Sugeno                                                                                                                                                                     |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Definición**  | Sistema de inferencia difusa donde tanto el antecedente (*Si...*) como el consecuente (*Entonces...*) se definen mediante conjuntos y etiquetas lingüísticas difusas. | Sistema de inferencia difusa donde el antecedente utiliza etiquetas lingüísticas, pero el consecuente es una función matemática (constante o lineal) de las variables de entrada. |
+| **Ventajas**    | **Alta interpretabilidad humana**: refleja de forma intuitiva el razonamiento del conocimiento experto mediante lenguaje natural.                                     | **Alta eficiencia computacional**: simplifica la desborrosificación al obtener valores numéricos precisos mediante promedios ponderados.                                          |
+| **Desventajas** | **Mayor costo computacional**: el proceso de desborrosificación requiere integrar áreas de conjuntos difusos, siendo más lento de procesar.                           | **Menos intuitivo**: los consecuentes no son etiquetas lingüísticas, lo que dificulta la interpretación directa por parte de expertos humanos.                                    |

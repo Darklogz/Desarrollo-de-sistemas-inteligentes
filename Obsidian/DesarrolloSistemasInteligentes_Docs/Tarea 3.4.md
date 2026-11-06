@@ -1,5 +1,5 @@
 # Práctica: entrenar y probar un clasificador con Teachable Machine
-
+# Leonardo Alejandro Mondragón Morales
 
 **Herramienta:** colab.google.com
 **Modalidad:** por equipos
