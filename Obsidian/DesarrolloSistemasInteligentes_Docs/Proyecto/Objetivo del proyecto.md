@@ -35,5 +35,11 @@ Lista de deseos:
 Diagrama de casos de uso
 ![[Pasted image 20261118160700.png]]
 
+---
 Diagrama de uso
 ![[Pasted image 20261118160118.png]]
+
+---
+Diagrama de clases
+
+![[Pasted image 20261118161258.png]]
