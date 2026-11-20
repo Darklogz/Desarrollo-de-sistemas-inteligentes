@@ -43,3 +43,57 @@ Diagrama de uso
 Diagrama de clases
 
 ![[Pasted image 20261118161258.png]]
+
+--- 
+Arquitectura del sistema
+## Tecnologías del proyecto
+
+**Lenguaje y servicios**
+
+- Python 3.11+
+- FastAPI + Uvicorn (API del Núcleo IA)
+- httpx (comunicación Host ↔ Núcleo)
+
+**Inteligencia artificial**
+
+- faster-whisper, modelo `base` o `tiny` en INT8 (voz a texto)
+- Ollama con Qwen2.5-3B-Instruct Q4 (LLM)
+- Piper TTS con voz en español (texto a voz)
+- RapidOCR (lectura de pantalla)
+- Silero VAD o webrtcvad (detección de silencio)
+- openWakeWord (palabra de activación, opcional)
+
+**Búsqueda web**
+
+- duckduckgo-search
+- BeautifulSoup4
+
+**Agente Host (control del sistema)**
+
+- pyautogui (teclado y mouse)
+- pynput (atajo global)
+- pyperclip (portapapeles)
+- subprocess y psutil (abrir/cerrar apps y procesos)
+- mss (captura de pantalla)
+- sounddevice (micrófono y reproducción de audio)
+
+**Mascota e interfaz**
+
+- PySide6 o Tkinter (ventana transparente sin bordes con PNG y burbuja)
+- Pillow (manejo de los PNG)
+
+**Específico de Linux**
+
+- xdotool (X11) o wtype / ydotool (Wayland) para insertar texto
+
+**Contenedores y despliegue**
+
+- Docker Desktop + Docker Compose (Windows)
+- WSL2 con `.wslconfig` para limitar la RAM
+- Scripts `iniciar.bat` (Windows) e `iniciar.sh` (Linux)
+- venv de Python (Linux)
+
+**Configuración y utilidades**
+
+- PyYAML (archivo `config.yaml`)
+- logging de Python (registro de errores)
